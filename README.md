@@ -1,15 +1,9 @@
 # template
-Create a build folder from the root directory if it doesn't exist:
-- "mkdir build"
+Generate project files by running:
+- "generate.bat"
 
-How to generate project files:
-- Run "cmake .." from the build directory.
+Build the exe by running:
+- "make.bat"
 
-How to build the project:
-- Run "cmake --build ." from the build directory.
-The library will be located in "build\Deubg\Template.lib"
-
-How to generate and build the standalone project:
-- cmake -S standalone -B build/standalone
-- cmake --build build/standalone
-The executable will be located in "build\Debug\Template.exe"
+Run the exe by running:
+- "debug.bat"

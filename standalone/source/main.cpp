@@ -1,10 +1,10 @@
-#include <template/template.h>
+import stk.tpl;
 
-using namespace NStk;
+using namespace NStk::NTemplate;
 
 int main()
 {
-	NTemplate::CTemplate oTemplate;
+	CTemplate oTemplate;
 	oTemplate.Template();
 	return 0;
 }
