@@ -1,10 +1,10 @@
 import stk.tpl;
 
-using namespace NStk::NTemplate;
+using namespace stk;
 
 int main()
 {
-	CTemplate oTemplate;
-	oTemplate.Template();
+	c_template tpl;
+	tpl.go_template();
 	return 0;
 }

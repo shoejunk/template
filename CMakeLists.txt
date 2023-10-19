@@ -1,11 +1,11 @@
-# Template
+# template
 
 cmake_minimum_required(VERSION 3.14 FATAL_ERROR)
 
 # ---- Project ----
 
 project(
-	Template
+	template
 	VERSION 0.1.0
 	LANGUAGES CXX)
 
@@ -26,7 +26,7 @@ include(${CPM_DOWNLOAD_LOCATION})
 CPMAddPackage("gh:TheLartians/PackageProject.cmake@1.8.0")
 
 # ---- Add source files ----
-file(GLOB_RECURSE sources CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/source/*.cppm")
+file(GLOB_RECURSE sources CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/source/*.ixx")
 
 # ---- Create library ----
 
